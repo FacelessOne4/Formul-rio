@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lange="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form atv 2</title>
+</head>
+<body>
+    <h1>Inscrição - Eventos Gamer</h1>
+    <form>
+        <fieldset>
+            <legend>Dados do Participante</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" for="nome" required>
+             </div>
+             <p></p>
+             <div>
+                <label for="email">Email</label>
+                <input type="email" required> 
+             </div>
+             <p></p>
+             <div>
+                <div>
+                    <label for="nick">Nickname</label>
+                    <input type="nick" required> 
+                 </div>
+             </div>
+             <p></p>
+             <div>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date">
+             </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+            <p></p>
+            <p>Tipos de jogos favoritos:</p>
+                <div>
+                    <input type="radio" value="FPS" name="FPS">
+                    <label for="FPS">FPS</label>
+                </div>
+                <div>
+                    <input type="radio" value="RPG" name="tipo_inscricao">
+                    <label for="RPG">RPG</label>
+                </div>
+                <div>
+                    <input type="radio" value="Esportes" name="tipo_inscricao">
+                    <label for="Esportes">Esportes</label>
+                </div>
+                <div>
+                    <input type="radio" value="Estratégia" name="tipo_inscricao">
+                    <label for="Estratégia">Estratégia</label>
+                </div>
+                <div>
+                    <p></p>
+                    <label for="nivel_experiencia">Nível de Jogador (0 a 10)</label>
+                    <input type="range" min="0" max="10" value="5">
+                </div>
+                 <p></p>
+                 <div>
+                    <label for="jogo">Jogo favorito</label>
+                    <input type="text" for="jogo" required>
+                 </div>
+
+
+         </fieldset>
+         <fieldset>
+            <legend>Extras</legend>
+            <p>Enviar print do jogo <input type="file"></p>
+            <p>Observações</p>
+            <textarea name="observacoes" id="observacoes" rows="6"></textarea>
+
+
+         </fieldset>
+         <div>
+            <button type="submit">Enviar Inscrição</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+
+    </form>
+ 
+</body>
+</html>

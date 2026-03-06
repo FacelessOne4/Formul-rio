@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lange="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Atividade</title>
+</head>
+<body>
+    <h1>Inscrição para o WorkProTech 2026</h1>
+    <p>Preencha o formulário abaixo para garantir sua vaga no maior evento de tecnologia do ano!</p>
+    <form>
+    <fieldset>
+        <legend>informações pessoais</legend>
+        <div>
+            <label for="nome">Nome Completo</label>
+            <input type="text" for="nome" required>
+         </div>
+         <div>
+            <label for="email">Email</label>
+            <input type="email" required> 
+         </div>
+         <div>
+            <label for="data de incricao">Data de Inscrição</label>
+            <input type="date">
+         </div>
+         <div>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date">
+         </div>
+         <div>
+            <label for="curso desejado">Curso que deseja (escolha um)</label>
+            <div>
+                <input type="radio" value="Front-end" name="tipo_inscricao">
+                <label for="Front-end">Front-end</label>
+            </div>
+            <div>
+                <input type="radio" value="Back-end" name="tipo_inscricao">
+                <label for="Back-end">Back-end</label>
+            </div>
+            <div>
+                <input type="radio" value="Mobile" name="tipo_inscricao">
+                <label for="Mobile">Mobile</label>
+            </div>
+         
+    </fieldset>
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </div>
+    
+
+</form>
+ 
+ 
+</body>
+</html>
